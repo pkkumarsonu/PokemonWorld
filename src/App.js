@@ -20,6 +20,7 @@ function App() {
         setAllPokemons((currentList) => [...currentList, data]);
       });
     }
+  
     createPokemonObject(data.results);
     await console.log(allPokemons);
   };
